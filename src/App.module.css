@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    width: 200px;
+    margin-top: 10px;
+}
+.coppyright{
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+}
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+    .image{
+        width: 100%;
+    }
+}
